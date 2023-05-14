@@ -1,0 +1,6 @@
+#command to generate a new .exe file of the project
+pyinstaller main.py --noconsole --onefile
+
+pyinstaller LaCucarachaBot.py --onefile --noconsole --windowed --icon="C:\\Users\\danquintar\\Pictures\\bug-white.ico"
+
+pyinstaller LaCucarachaBot.py --noconsole --noconfirm --onefile --windowed --add-data "C:\\Users\\danquintar\\Pictures\\bug-white.ico;assets" --add-data "C:\\Users\\danquintar\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\customtkinter;customtkinter\\" --icon="C:\\Users\\danquintar\\Pictures\\bug-white.ico"
